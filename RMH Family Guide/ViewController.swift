@@ -25,18 +25,24 @@ class ViewController: UIViewController {
         // You don't need to modify the default init(nibName:bundle:) method.
         
     override func loadView() {
-            // Create a GMSCameraPosition that tells the map to display the
-            // coordinate -33.86,151.20 at zoom level 6.
-            let camera = GMSCameraPosition.camera(withLatitude: 42.279594, longitude: -83.732124, zoom: 12.0)
+
+            let camera = GMSCameraPosition.camera(withLatitude: 42.2803, longitude: -83.7273, zoom: 15)
             let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
             view = mapView
-            
+        
             // Creates a marker in the center of the map.
             let marker = GMSMarker()
-            marker.position = CLLocationCoordinate2D(latitude: 42.279594, longitude: -83.732124)
-            marker.title = "Ann Arbor"
-            marker.snippet = "USA"
+            marker.position = CLLocationCoordinate2D(latitude: 42.2803, longitude: -83.7273)
+            marker.title = "Ronald McDonald House"
+            marker.snippet = "Ann Arbor, MI"
             marker.map = mapView
+        
+            let marker1 = GMSMarker()
+            marker1.position = CLLocationCoordinate2D(latitude: 42.2819, longitude: -83.7278)
+            marker1.title = "CS Mott's Children's Hospital"
+            marker1.snippet = "Ann Arbor, MI"
+            marker1.map = mapView
+
         }
 
 }
