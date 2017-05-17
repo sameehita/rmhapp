@@ -10,11 +10,16 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 class ViewController: UIViewController {
-
+    var chosenmap=1;
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    @IBAction func mapbutton(_ sender: Any) {
+        chosenmap = 1;
+    }
+    @IBOutlet weak var mapbutton: UIButton!
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -25,7 +30,7 @@ class ViewController: UIViewController {
         // You don't need to modify the default init(nibName:bundle:) method.
         
     override func loadView() {
-        let chosenmap = 1;
+     
 
             var camera = GMSCameraPosition.camera(withLatitude: 42.2803, longitude: -83.7273, zoom: 15)
             var mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)

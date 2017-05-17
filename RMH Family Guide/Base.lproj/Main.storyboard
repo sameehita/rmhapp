@@ -25,32 +25,20 @@
                                 <rect key="frame" x="109" y="471" width="168" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="mapbutton:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="46I-AD-TlL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="mapbutton" destination="gW5-Oi-Tf9" id="PZB-Lk-ahn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-394.39999999999998" y="136.28185907046478"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="gmK-VK-A5W">
-            <objects>
-                <viewController id="IzB-o6-b45" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="grt-cU-x2x"/>
-                        <viewControllerLayoutGuide type="bottom" id="5Cf-LW-5Gw"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gK8-U4-tI9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R1V-jE-C1Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="326" y="136"/>
+            <point key="canvasLocation" x="102" y="136"/>
         </scene>
     </scenes>
 </document>
