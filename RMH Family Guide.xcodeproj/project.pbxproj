@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56A7599CCF26AEF9485C2CD4 /* libPods-RMH Family Guide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BCB65DEE2BFB5F876B9CA5 /* libPods-RMH Family Guide.a */; };
 		6246606C1ECC814200F7AC8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6246606B1ECC814200F7AC8A /* AppDelegate.swift */; };
 		6246606E1ECC814200F7AC8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6246606D1ECC814200F7AC8A /* ViewController.swift */; };
 		624660711ECC814200F7AC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6246606F1ECC814200F7AC8A /* Main.storyboard */; };
 		624660731ECC814200F7AC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624660721ECC814200F7AC8A /* Assets.xcassets */; };
 		624660761ECC814200F7AC8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624660741ECC814200F7AC8A /* LaunchScreen.storyboard */; };
-		6246607E1ECC84C800F7AC8A /* RMH Family Guide in Resources */ = {isa = PBXBuildFile; fileRef = 6246607D1ECC84C800F7AC8A /* RMH Family Guide */; };
-		624660801ECC852B00F7AC8A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6246607F1ECC852B00F7AC8A /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D2125531582D52A75430956 /* Pods-RMH Family Guide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMH Family Guide.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMH Family Guide/Pods-RMH Family Guide.release.xcconfig"; sourceTree = "<group>"; };
+		386A0AA6A742E24CD1899432 /* Pods-RMH Family Guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMH Family Guide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMH Family Guide/Pods-RMH Family Guide.debug.xcconfig"; sourceTree = "<group>"; };
 		624660681ECC814200F7AC8A /* RMH Family Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RMH Family Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6246606B1ECC814200F7AC8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6246606D1ECC814200F7AC8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +25,7 @@
 		624660721ECC814200F7AC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		624660751ECC814200F7AC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		624660771ECC814200F7AC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6246607D1ECC84C800F7AC8A /* RMH Family Guide */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "RMH Family Guide"; sourceTree = "<group>"; };
-		6246607F1ECC852B00F7AC8A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E4BCB65DEE2BFB5F876B9CA5 /* libPods-RMH Family Guide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RMH Family Guide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A7599CCF26AEF9485C2CD4 /* libPods-RMH Family Guide.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6000AAA7B0381C617AB464E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				386A0AA6A742E24CD1899432 /* Pods-RMH Family Guide.debug.xcconfig */,
+				2D2125531582D52A75430956 /* Pods-RMH Family Guide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6246605F1ECC814100F7AC8A = {
 			isa = PBXGroup;
 			children = (
 				6246606A1ECC814200F7AC8A /* RMH Family Guide */,
 				624660691ECC814200F7AC8A /* Products */,
+				6000AAA7B0381C617AB464E7 /* Pods */,
+				E661EBF02323C7027E11604D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +73,19 @@
 				6246606B1ECC814200F7AC8A /* AppDelegate.swift */,
 				6246606D1ECC814200F7AC8A /* ViewController.swift */,
 				6246606F1ECC814200F7AC8A /* Main.storyboard */,
-				6246607F1ECC852B00F7AC8A /* Podfile */,
-				6246607D1ECC84C800F7AC8A /* RMH Family Guide */,
 				624660721ECC814200F7AC8A /* Assets.xcassets */,
 				624660741ECC814200F7AC8A /* LaunchScreen.storyboard */,
 				624660771ECC814200F7AC8A /* Info.plist */,
 			);
 			path = "RMH Family Guide";
+			sourceTree = "<group>";
+		};
+		E661EBF02323C7027E11604D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4BCB65DEE2BFB5F876B9CA5 /* libPods-RMH Family Guide.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6246607A1ECC814200F7AC8A /* Build configuration list for PBXNativeTarget "RMH Family Guide" */;
 			buildPhases = (
+				CA241B6898931B4D3AFAF9FB /* [CP] Check Pods Manifest.lock */,
 				624660641ECC814100F7AC8A /* Sources */,
 				624660651ECC814100F7AC8A /* Frameworks */,
 				624660661ECC814100F7AC8A /* Resources */,
+				C8BA4B296F244920DA537FE0 /* [CP] Embed Pods Frameworks */,
+				AC15CEE5167670ACE99B0C05 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +151,59 @@
 			files = (
 				624660761ECC814200F7AC8A /* LaunchScreen.storyboard in Resources */,
 				624660731ECC814200F7AC8A /* Assets.xcassets in Resources */,
-				624660801ECC852B00F7AC8A /* Podfile in Resources */,
 				624660711ECC814200F7AC8A /* Main.storyboard in Resources */,
-				6246607E1ECC84C800F7AC8A /* RMH Family Guide in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC15CEE5167670ACE99B0C05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMH Family Guide/Pods-RMH Family Guide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8BA4B296F244920DA537FE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMH Family Guide/Pods-RMH Family Guide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA241B6898931B4D3AFAF9FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		624660641ECC814100F7AC8A /* Sources */ = {
@@ -265,6 +332,7 @@
 		};
 		6246607B1ECC814200F7AC8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 386A0AA6A742E24CD1899432 /* Pods-RMH Family Guide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "RMH Family Guide/Info.plist";
@@ -277,6 +345,7 @@
 		};
 		6246607C1ECC814200F7AC8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2125531582D52A75430956 /* Pods-RMH Family Guide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "RMH Family Guide/Info.plist";
@@ -306,6 +375,7 @@
 				6246607C1ECC814200F7AC8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
